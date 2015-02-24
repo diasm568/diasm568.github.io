@@ -1,0 +1,17 @@
+body {
+    background-image: url("backgroundImage.jpg");
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+}
+
+.buttonContainer {
+	width: 470px;
+	height: 100px;
+	margin: 0 auto; 
+}
+
+.enterIcon:hover{
+	opacity: 50% 
+}
