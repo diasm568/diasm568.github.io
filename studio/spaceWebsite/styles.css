@@ -6,12 +6,18 @@ body {
 	background-size: cover; 
 }
 
-.buttonContainer {
-	width: 470px;
-	height: 100px;
-	margin: 0 auto; 
+
+#enterIcon {
+position: absolute;
+height: 600px;
+width: 550px;
+margin: 0 auto;
+top: 50%;
+left: 50%;
+margin-left: -300px;
+margin-top: -300px;
 }
 
-.enterIcon:hover{
-	opacity: 50% 
+#enterIcon:hover{
+	background-image: url("iconRed.png")
 }
