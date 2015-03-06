@@ -5,24 +5,39 @@
     <head>
     
         <title>Transient Space</title>
+        
+        <link rel="icon" href="favicon.png" type="image/x-icon" />
 
         <link rel="stylesheet" type="text/css" href="styles.css">
-        <script src="application.js">
-        </script>
-        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>        
     </head>
  
-        <div id="outerContainer" class="show">       
-        		<div id="enterIcon" class="enterBlack">
-					<img src="iconBlack.png" alt="Enter" height="600" width="550"></p>
-				</div>
-		</div>
-		
         <body>
-<audio autoplay="autoplay" audio loop="loop">  
-   <source src="whiteNoise.m4a" />  
-</audio> 
-   
-		</body>
+        
+			<div class="navigation">
+			  <img src="navigationKeys.png" height="100"/>
+ 			</div>
+ 			
+<!-- 
+ 			<div class="exitIcon">
+			  <img src="iconBlack.png" height="100"/>
+ 			</div>
+ -->
 
-</html>
+			<div id="enterIcon" class="enter-icon-black">
+			</div>
+			
+			<div id="changingImage">
+			</div>
+				
+        	<div class="text"></div>
+        	
+        	<div class="audio hide">
+        		<audio class="audio-controller" controls>
+				 <source src="audio.wav" type="audio/mpeg">
+			   </audio>
+        	</div>
+
+			<script src="application.js"></script>   
+		</body>
+</html>			

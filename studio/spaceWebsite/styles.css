@@ -1,23 +1,88 @@
 body {
     background-image: url("backgroundImage.jpg");
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover; 
+	background-color: #808080
 }
-
 
 #enterIcon {
-position: absolute;
-height: 600px;
-width: 550px;
-margin: 0 auto;
-top: 50%;
-left: 50%;
-margin-left: -300px;
-margin-top: -300px;
+	position: absolute;
+	height: 150px;
+	width: 150px;
+	top: 50%;
+	left: 50%;
+	margin-left: -75px;
+	margin-top: -75px;
 }
 
-#enterIcon:hover{
-	background-image: url("iconRed.png")
+#enterIcon {
+	background-image: url("iconBlack.png");
+	background-size: 150px 150px;
+	background-repeat: no-repeat;
 }
+
+
+#enterIcon:hover{
+	background-image: url("iconRed.png");
+	cursor: pointer; 
+	cursor: hand;
+}
+
+.enterIconBlack:active {
+	background: transparent; 
+}
+
+.show {
+    display: block;
+}
+
+.dontShow {
+    display: none;
+}
+
+body { 
+    font-family: NewsGothicMT; 
+    font-size: 40px;
+    }
+
+.text {
+	color: #6e6e6e;
+	letter-spacing: 7px;
+	text-transform: uppercase;
+	text-align: center;
+	height: 840px;
+  	line-height: 840px;
+	}
+
+.navigation {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	display: none;
+}
+
+.hide {
+	opacity: 0;
+}
+
+.show {
+	display: block;
+}	
+
+/* 
+.exitIcon {
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	height: 50px
+	width: 50px
+}
+ */
+
+IMG_8592.JPG {
+	vertical-align: bottom;
+	}
+
