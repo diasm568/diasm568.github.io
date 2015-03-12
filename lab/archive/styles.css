@@ -3,6 +3,24 @@
     src: url("bebasNeueBold.otf") format("opentype");
 }
 
-.bebasNeueBold {
+@font-face {
+    font-family: bebasNeueBook;
+    src: url("bebasNeueBook.otf") format("opentype");
+}
+
+@font-face {
+    font-family: bebasNeueRegular;
+    src: url("bebasNeueRegular.otf") format("opentype");
+}
+
+h1 {
     font-family: bebasNeueBold;
+}
+
+h2 {
+    font-family: bebasNeueRegular;
+}
+
+h3 {
+    font-family: bebasNeueBook;
 }
