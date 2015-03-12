@@ -1,8 +1,8 @@
 @font-face {
     font-family: bebasNeueBold;
-    src: url("bebasNeueBold.otf");
+    src: url("bebasNeueBold.otf") format("opentype");
 }
 
-h1 {
+.bebasNeueBold {
     font-family: bebasNeueBold;
 }
