@@ -15,3 +15,8 @@ p2 {
 p {
     font-family: roboto-light;
 }
+
+body {
+    font-family: courier
+    font-size: 10 px;
+}
