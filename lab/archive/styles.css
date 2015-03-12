@@ -1,16 +1,16 @@
 @font-face {
     font-family: bebasNeueBold;
-    src: url("bebasNeueBold.otf") format("opentype");
+    src: url("bebasNeueBold-webfont.ttf") format("truetype");
 }
 
 @font-face {
     font-family: bebasNeueBook;
-    src: url("bebasNeueBook.otf") format("opentype");
+    src: url("bebasNeueBook-webfont.ttf") format("truetype");
 }
 
 @font-face {
     font-family: bebasNeueRegular;
-    src: url("bebasNeueRegular.otf") format("opentype");
+    src: url("bebasNeueRegular-webfont.ttf") format("truetype");
 }
 
 h1 {
