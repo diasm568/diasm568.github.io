@@ -1,0 +1,17 @@
+body {
+    background-color: #7acdc8;
+}
+
+p1 {
+    font-family: bebasNeueBold;
+    font-size: 40px;
+}
+
+p2 {
+    font-family: bebasNeueRegular;
+    font-size: 40px;
+}
+
+p {
+    font-family: roboto-light;
+}
