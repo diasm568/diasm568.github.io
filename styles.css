@@ -1,0 +1,52 @@
+@font-face {
+    font-family: sourceSansPro-Light;
+    src: url(sourceSansPro-Light.otf);
+}
+
+@font-face {
+    font-family: sourceSansPro-Regular;
+    src: url(sourceSansPro-Regular.otf);
+}
+
+@font-face {
+    font-family: sourceSansPro-Semibold;
+    src: url(sourceSansPro-Semibold.otf);
+}
+
+f1 {
+    font-family: sourceSansPro-Light;
+}
+
+f2 {
+    font-family: sourceSansPro-Regular;
+}
+
+f3 {
+    font-family: sourceSansPro-Semibold;
+}
+
+p1 {
+    font-size: 50px;
+}
+
+body {
+    margin-left: 30px;
+}
+
+p2 {
+    color: #003471;
+    font-size: 20px;
+}
+
+p3 {
+    font-size: 18px;
+}
+
+span {
+    color: #007bff;
+}
+
+a:link {color: #000000; text-decoration: none; }
+a:active {color: #000000; text-decoration: none; }
+a:visited {color: #000000; text-decoration: none; }
+a:hover {color: #7dbae7; text-decoration: none; }

@@ -1,0 +1,183 @@
+body {
+	cursor: url('favicon.png'), auto;
+}
+
+#circle0 {
+  width: 30px;
+  height: 30px;
+  background: #ebebeb;
+  background-image: -webkit-radial-gradient(45px 45px, circle cover, white, #ebebeb);
+}
+
+#circle1 {
+  width: 30px;
+  height: 30px;
+  background: #fd55b1;
+/*   cursor: pointer; */
+  background-image: -webkit-radial-gradient(55px 55px, circle cover, red, #fd55b1);
+}
+
+#circle2 {
+  width: 30px;
+  height: 30px;
+  background: #03defe;
+/*   cursor: pointer; */
+  background-image: -webkit-radial-gradient(45px 45px, circle cover, blue, #03defe);
+}
+
+#circle3 {
+  width: 30px;
+  height: 30px;
+  background: #fdff42;
+/*   cursor: pointer; */
+  background-image: -webkit-radial-gradient(45px 45px, circle cover, orange, #fdff42);
+}
+
+#circle4 {
+  width: 80px;
+  height: 80px;
+  background: #ebebeb;
+/*   cursor: pointer; */
+  background-image: -webkit-radial-gradient(45px 45px, circle cover, white, #ebebeb);
+}
+
+.circle4 {
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.circle4container {
+  margin-right: 15px;
+  position: absolute;
+  right: 70px;
+  top: 240px;
+}
+
+.circle {
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+body {
+	cursor: url('necco.png'), default;
+}
+
+.circle4:hover {
+	color: #03defe;
+/* 	background-color: #03defe; */
+}
+
+.circle4:active {
+	background: gray; 
+}
+
+
+/* 
+.container {
+    position: absolute;
+	height: 644px;
+	width: 644px;
+	top: 50%;
+	left: 50%;
+	margin-left: -322px;
+	margin-top: -322px;
+}
+ */
+
+Common button styles.button {
+	min-width: 30px;
+	max-width: 30px;
+	display: inline-block;
+	position: relative;
+	-webkit-backface-visibility: hidden;
+}
+
+.bg-1 .button {
+	color: #37474f;
+	border-color: #37474f;
+}
+
+Moema.button--moema {
+	background: #fd55b1;
+	-webkit-transition: background-color 0.3s, color 0.3s;
+	transition: background-color 0.3s, color 0.3s;
+}
+.button--moema.button--inverted {
+	background: #fd55b1;
+	color: #fd55b1;
+}
+.button--moema::before {
+	content: '';
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	bottom: -20px;
+	right: -20px;
+	background: inherit;
+	border-radius: 50%;
+	z-index: -1;
+	opacity: 0.4;
+	-webkit-transform: scale3d(0.4, 0.4, 1);
+	transform: scale3d(0.4, 0.4, 1);
+}
+.button--moema:hover {
+	-webkit-transition: background-color 0.1s 0.3s, color 0.1s 0.3s;
+	transition: background-color 0.1s 0.3s, color 0.1s 0.3s;
+	color: #fd55b1;
+	background-color: #fd55b1;
+	-webkit-animation: anim-moema-1 0.3s forwards;
+	animation: anim-moema-1 0.3s forwards;
+}
+.button--moema.button--inverted:hover {
+	color: #fd55b1;
+	background-color: #fd55b1;
+}
+.button--moema:hover::before {
+	-webkit-animation: anim-moema-2 0.3s 0.3s forwards;
+	animation: anim-moema-2 0.3s 0.3s forwards;
+}
+@-webkit-keyframes anim-moema-1 {
+	60% {
+		-webkit-transform: scale3d(0.8, 0.8, 1);
+		transform: scale3d(0.8, 0.8, 1);
+	}
+	85% {
+		-webkit-transform: scale3d(1.1, 1.1, 1);
+		transform: scale3d(1.1, 1.1, 1);
+	}
+	100% {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+}
+@keyframes anim-moema-1 {
+	60% {
+		-webkit-transform: scale3d(0.8, 0.8, 1);
+		transform: scale3d(0.8, 0.8, 1);
+	}
+	85% {
+		-webkit-transform: scale3d(1.1, 1.1, 1);
+		transform: scale3d(1.1, 1.1, 1);
+	}
+	100% {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+}
+@-webkit-keyframes anim-moema-2 {
+	to {
+		opacity: 0;
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+}
+@keyframes anim-moema-2 {
+	to {
+		opacity: 0;
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+}
