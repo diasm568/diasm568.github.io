@@ -1,0 +1,58 @@
+function add (num1, num2) {
+	var sum = num1 +num2;
+	return sum;
+}
+undefined
+
+add (20, 30);
+50
+
+var mySum = add(20,30);
+undefined
+
+mySum
+50
+
+myNums = addNums(1,2);
+3
+undefined
+
+myNums
+undefined
+
+var myArray = ["hello", 2, "world", false}
+undefined
+
+myArray [0]
+"hello"
+
+var myObject = {
+name:"Brendan",
+age: 32,
+currentLocation: 
+}
+
+myObject.age
+32
+myObject.currentLocation
+"New York, NY"
+
+myObject,age = 32
+
+myObject.currentLocation = "Berlin, Germany"
+
+myObject.blah = true
+
+myObject.blah
+true
+
+myObject
+
+$("a)";
+
+$("h1");
+
+$(".band-button").html("Hello world");
+[h2 class="band
+
+ 
