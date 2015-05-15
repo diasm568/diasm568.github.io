@@ -6,6 +6,21 @@ audio {
    display:none;
 }
 
+@font-face {
+    font-family: typeface;
+    src: url(typeface.ttf);
+}
+
+@font-face {
+    font-family: SourceSansPro-Light;
+    src: url(SourceSansPro-Light.otf);
+}
+
+@font-face {
+    font-family: SourceSansPro-Bold;
+    src: url(SourceSansPro-Bold.otf);
+}
+
 #rectangle1 {
 	width: 600px;
 	height: 350px;
