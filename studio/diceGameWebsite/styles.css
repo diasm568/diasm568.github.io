@@ -1,0 +1,167 @@
+body {
+	background-color: #fcd6e5;
+}
+
+audio { 
+   display:none;
+}
+
+#rectangle1 {
+	width: 600px;
+	height: 350px;
+	background: #c386ce;
+	z-index: 5;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -325px;
+	margin-top: -200px;
+	border-radius:50px;
+	border: 25px solid #ffffff;
+	box-shadow: 20px 20px 30px #252525;
+}
+
+#rectangle2 {
+	width: 600px;
+	height: 350px;
+	background: #fff799;
+	z-index: 5;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -325px;
+	margin-top: -200px;
+	border-radius:50px;
+	border: 25px solid #ffffff;
+	box-shadow: 20px 20px 30px #252525;
+}
+
+h1 {
+	font-family: SourceSansPro-Bold;
+	color: black;
+	font-size: 35px;
+	text-align: center;
+	top: 10%;
+	line-height: 50%;
+}
+
+.pinkPanther {
+	position: relative;
+	margin-top:6%;
+	left:6%;
+	z-index: 4;
+}
+
+.policeman {
+	position: relative;
+	margin-top:8.6%;
+	left:8%;
+	z-index: 4;
+}
+
+.container1 {
+	position: relative;
+	top:-60%;
+	left:22%;
+	z-index: 3;
+}
+
+.container2 {
+	position: relative;
+	top:-45%;
+	left:2%;
+	z-index: 3;
+}
+
+.container3 {
+	position: relative;
+	top:-60%;
+	left:22%;
+	z-index: 3;
+}
+
+.container4 {
+	position: relative;
+	top:-45%;
+	left:2%;
+	z-index: 3;
+}
+
+h2 {
+	font-family: SourceSansPro-Light;
+	color: black;
+	font-size: 22px;
+	text-align: center;
+	z-index: 3;
+	top: 100%;
+}  
+
+h3 {
+	font-family: SourceSansPro-Bold;
+	color: #92278f;
+	font-size: 20px;
+	text-align: center;
+	z-index: 3;
+} 
+
+h4 {
+	font-family: SourceSansPro-Light;
+	color: black;
+	font-size: 22px;
+	text-align: center;
+	z-index: 3;
+	top: 100%;
+}  
+
+h5 {
+	font-family: SourceSansPro-Bold;
+	color: #92278f;
+	font-size: 20px;
+	text-align: center;
+	z-index: 3;
+} 
+
+.outerContainer {
+	width: 1081px;
+	height:600px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -540px;
+	margin-top: -325px;
+}
+
+.magnifyingGlass {
+	display: inline-block;
+	z-index: -1;
+}
+
+.paw {
+	display: inline-block;
+	z-index: 0;
+	position: relative;
+}
+
+.hide {
+    display: none;
+}
+
+.player1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}	
+
+.player2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+a:link {color: #92278f; text-decoration: none; }
+a:active {color: #92278f; text-decoration: none; }
+a:visited {color: #92278f; text-decoration: none; }
+a:hover {color: white; text-decoration: none; }

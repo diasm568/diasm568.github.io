@@ -1,0 +1,32 @@
+// if (e.keyCode === 59) // left
+//     moveLeft(player2);
+//     else if (e.keyCode === 6) // up
+//     moveUp(player2);
+//     else if (e.keyCode === 55) // right
+//     moveRight(player2);
+//     else if (e.keyCode === 58) // down
+//     moveDown(player2);
+
+// function move_player() {
+// 	// figure out which user pressed the button
+// 	// ie, up,down,left,right & right shift vs w,a,s,d left shift
+// 	// if shift was pressed run inspect_this(div);
+// 	// THEN go thru
+// 	// giant if statement that looks 
+// 	// at where they currently are
+// 	// which button the user pressed (up, down, left, right OR w,a,s,d)
+// 	// and where they should move next
+// 	// or if they should move no where because they tried
+// 	// to move somewhere they cant, ie
+// 	// they're in the bottom right corner and
+// 	// they try to move right or down
+// 	
+// 	// once you know where they are moving to
+// 	// drop the class associated with that user on the current div
+// 	// ie, p1show or p2show
+// 	// and add p1show/p2show to the div they moved to
+// }
+// 
+// function inspect_this(div) {
+// 	// add class to div to determine what should happen
+// }
