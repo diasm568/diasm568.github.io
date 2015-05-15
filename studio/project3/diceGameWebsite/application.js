@@ -34,18 +34,18 @@ $(window).on('keydown', function (e) {
 // selectSquare(player2);
 // }
 
-    if (e.keyCode === 88) 
+    if (e.keyCode === 69) 
     selectSquare(player1); // 'x'
-    if (e.keyCode === 191) 
+    if (e.keyCode === 16) 
     selectSquare(player2); // '/'
   
-    if (e.keyCode === 17) 
+    if (e.keyCode === 65) 
     moveLeft(player1); // left [ctrl]
-    if (e.keyCode === 90) 
+    if (e.keyCode === 87) 
     moveUp(player1);  // up ['z']
-    if (e.keyCode === 91) 
+    if (e.keyCode === 68) 
     moveRight(player1); // right [cmd]
-    if (e.keyCode === 18) 
+    if (e.keyCode === 83) 
     moveDown(player1);  // down [alt]
     
     
